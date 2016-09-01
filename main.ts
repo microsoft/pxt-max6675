@@ -7,6 +7,8 @@ namespace max6675 {
      * Returns the temperate measured in C provided by the MAX6675 connected to a temperature probe.
      */
     //% blockId=max6675_temperature block="max6675 temperature|%pin"
+    //% parts="max6675"
+    //% trackArgs=0
     export function temperature(pin: DigitalPin): number {
         pins.setPull(pin, PinPullMode.PullNone);
         pins.digitalWritePin(pin, 0);
