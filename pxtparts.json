@@ -59,7 +59,7 @@
                 "start": [
                     "breadboard",
                     "j",
-                    5
+                    6
                 ],
                 "end": "ground",
                 "color": "blue",
@@ -69,7 +69,7 @@
                 "start": [
                     "breadboard",
                     "j",
-                    6
+                    5
                 ],
                 "end": "threeVolt",
                 "color": "red",
