@@ -9,7 +9,9 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "pxtparts.json",
+        "parts/max6675.svg"
     ],
     "testFiles": [],
     "public": true

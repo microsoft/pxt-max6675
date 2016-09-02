@@ -1,0 +1,80 @@
+{
+    "max6675": {
+        "visual": {
+            "image": "/parts/max6675.svg",
+            "width": 58,
+            "height": 64,
+            "firstPin": [
+                11,
+                5
+            ],
+            "pinDist": 7.2,
+            "extraColumnOffset": 2,
+        },
+        "breadboardColumnsNeeded": 10,
+        "breadboardStartRow": "h",
+        "pinAllocation": {
+            "type": "factoryfunction",
+            "functionName": "max6675.temperature",
+            "pinArgPositions": [
+                0
+            ]
+        },
+        "assemblyStep": 0,
+        "wires": [
+            {
+                "start": [
+                    "breadboard",
+                    "j",
+                    2
+                ],
+                "end": "SCK",
+                "color": "green",
+                "assemblyStep": 1
+            },
+            {
+                "start": [
+                    "breadboard",
+                    "j",
+                    3
+                ],
+                "end": [
+                    "GPIO",
+                    0
+                ],
+                "color": "blue",
+                "assemblyStep": 1
+            },
+            {
+                "start": [
+                    "breadboard",
+                    "j",
+                    4
+                ],
+                "end": "MISO",
+                "color": "orange",
+                "assemblyStep": 1
+            },
+            {
+                "start": [
+                    "breadboard",
+                    "j",
+                    5
+                ],
+                "end": "ground",
+                "color": "blue",
+                "assemblyStep": 0
+            },
+            {
+                "start": [
+                    "breadboard",
+                    "j",
+                    6
+                ],
+                "end": "threeVolt",
+                "color": "red",
+                "assemblyStep": 1
+            }
+        ]
+    }
+}
