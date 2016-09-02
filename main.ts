@@ -2,14 +2,14 @@
  * Functions to read temperature probe data
  */
 //% color=#A80000
-namespace max6675 {
+namespace sensors {
     /**
      * Returns the temperate measured in C provided by the MAX6675 connected to a temperature probe.
      */
     //% blockId=max6675_temperature block="max6675 temperature|%pin"
     //% parts="max6675"
     //% trackArgs=0
-    export function temperature(pin: DigitalPin): number {
+    export function max6675Temperature(pin: DigitalPin): number {
         pins.setPull(pin, PinPullMode.PullNone);
         pins.digitalWritePin(pin, 0);
         basic.pause(1);

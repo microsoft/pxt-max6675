@@ -1,7 +1,7 @@
 {
     "max6675": {
         "visual": {
-            "image": "/parts/max6675.svg",
+            "image": "parts/max6675.svg",
             "width": 58,
             "height": 64,
             "firstPin": [
@@ -9,13 +9,13 @@
                 5
             ],
             "pinDist": 7.2,
-            "extraColumnOffset": 2,
+            "extraColumnOffset": 2
         },
         "breadboardColumnsNeeded": 10,
         "breadboardStartRow": "h",
         "pinAllocation": {
             "type": "factoryfunction",
-            "functionName": "max6675.temperature",
+            "functionName": "sensors.max6675Temperature",
             "pinArgPositions": [
                 0
             ]
