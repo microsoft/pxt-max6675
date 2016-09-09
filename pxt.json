@@ -1,6 +1,6 @@
 {
     "name": "pxt-max6675",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A package to use temperature probes using the MAX6675",
     "license": "MIT",
     "dependencies": {
