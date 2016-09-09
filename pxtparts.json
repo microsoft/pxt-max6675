@@ -4,77 +4,33 @@
             "image": "parts/max6675.svg",
             "width": 58,
             "height": 64,
-            "firstPin": [
-                11,
-                5
-            ],
-            "pinDist": 7.2,
-            "extraColumnOffset": 2
-        },
-        "breadboardColumnsNeeded": 10,
-        "breadboardStartRow": "h",
-        "pinAllocation": {
-            "type": "factoryfunction",
-            "functionName": "sensors.max6675Temperature",
-            "pinArgPositions": [
-                0
+            "pinDistance": 7.2,
+            "pinLocations": [
+                {"x": 11, "y": 5},
+                {"x": 18.2, "y": 5},
+                {"x": 25.4, "y": 5},
+                {"x": 32.6, "y": 5},
+                {"x": 39.8, "y": 5}
             ]
         },
-        "assemblyStep": 0,
-        "wires": [
-            {
-                "start": [
-                    "breadboard",
-                    "j",
-                    2
-                ],
-                "end": "SCK",
-                "color": "green",
-                "assemblyStep": 1
-            },
-            {
-                "start": [
-                    "breadboard",
-                    "j",
-                    3
-                ],
-                "end": [
-                    "GPIO",
-                    0
-                ],
-                "color": "blue",
-                "assemblyStep": 1
-            },
-            {
-                "start": [
-                    "breadboard",
-                    "j",
-                    4
-                ],
-                "end": "MISO",
-                "color": "orange",
-                "assemblyStep": 1
-            },
-            {
-                "start": [
-                    "breadboard",
-                    "j",
-                    6
-                ],
-                "end": "ground",
-                "color": "blue",
-                "assemblyStep": 0
-            },
-            {
-                "start": [
-                    "breadboard",
-                    "j",
-                    5
-                ],
-                "end": "threeVolt",
-                "color": "red",
-                "assemblyStep": 1
-            }
+        "numberOfPins": 5,
+        "instantiation": {
+            "kind": "function",
+            "fullyQualifiedName": "sensors.max6675Temperature",
+            "argumentRoles": [
+                {"pinInstantiationIdx": 0}
+            ]
+        },
+        "pinDefinitions": [
+            {"target": "SCK", "style": "male", "orientation": "+Y" },
+            {"target": {"pinInstantiationIdx": 0}, "style": "male", "orientation": "+Y" },
+            {"target": "MISO", "style": "male", "orientation": "+Y" },
+            {"target": "ground", "style": "male", "orientation": "+Y" },
+            {"target": "threeVolt", "style": "male", "orientation": "+Y" }
+        ],
+        "assembly": [
+            {"part": true, "pinIndices": [3]},
+            {"pinIndices": [0, 1, 2, 4]}
         ]
     }
 }
