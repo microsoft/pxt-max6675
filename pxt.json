@@ -4,8 +4,7 @@
     "description": "A package to use temperature probes using the MAX6675",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
