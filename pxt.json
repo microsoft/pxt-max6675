@@ -1,5 +1,5 @@
 {
-    "name": "pxt-max6675",
+    "name": "max6675",
     "version": "1.0.0",
     "description": "A package to use temperature probes using the MAX6675",
     "license": "MIT",
@@ -12,6 +12,8 @@
         "pxtparts.json",
         "parts/max6675.svg"
     ],
-    "testFiles": [],
+    "testFiles": [
+        "test.ts"
+    ],
     "public": true
 }
