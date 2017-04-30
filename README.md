@@ -1,6 +1,8 @@
 # pxt-max6675
 A package to use temperature probes using the MAX6675 (see [mbed library](https://developer.mbed.org/components/MAX6675-Thermocouple/)).
 
+https://youtu.be/Y9JUJ26OQ8U
+
 ### Example
 
 Reads the temperature and plots it on the screen.
