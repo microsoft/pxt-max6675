@@ -25,5 +25,5 @@ basic.forever(() => {
 ```
 
 ```package
-max6675
+max6675=github:microsoft/pxt-6675
 ```
