@@ -1,4 +1,5 @@
-# pxt-max6675
+# pxt-max6675 [![Build Status](https://travis-ci.org/Microsoft/pxt-max6675.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-max6675)
+
 A package to use temperature probes using the MAX6675 (see [mbed library](https://developer.mbed.org/components/MAX6675-Thermocouple/)).
 
 https://youtu.be/Y9JUJ26OQ8U
@@ -23,8 +24,3 @@ MIT
 ## Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-
-```package
-max6675=github:microsoft/pxt-6675
-```

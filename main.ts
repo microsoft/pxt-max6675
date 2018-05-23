@@ -18,7 +18,7 @@ namespace input {
             temp = -1000;
         } else {
             let value = (highByte << 5 | lowByte >> 3);
-            temp = (value / 4);
+            temp = value >> 2;
         }
         return temp;
     }
