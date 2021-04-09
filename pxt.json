@@ -1,6 +1,6 @@
 {
     "name": "max6675",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "A package to use temperature probes using the MAX6675",
     "license": "MIT",
     "dependencies": {
