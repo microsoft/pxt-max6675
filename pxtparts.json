@@ -16,7 +16,7 @@
         "numberOfPins": 5,
         "instantiation": {
             "kind": "function",
-            "fullyQualifiedName": "sensors.max6675Temperature",
+            "fullyQualifiedName": "input.max6675Temperature",
             "argumentRoles": [
                 {"pinInstantiationIdx": 0}
             ]

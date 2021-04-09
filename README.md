@@ -1,4 +1,4 @@
-# pxt-max6675 [![Build Status](https://travis-ci.org/Microsoft/pxt-max6675.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-max6675)
+# pxt-max6675
 
 A package to use temperature probes using the MAX6675 (see [mbed library](https://developer.mbed.org/components/MAX6675-Thermocouple/)).
 
